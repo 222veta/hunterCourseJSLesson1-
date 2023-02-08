@@ -37,3 +37,6 @@ console.log(--dicr);// 9
 
 
 console.log('dc');
+//kk
+//git bvnn
+console.log("njn")
