@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-family: Tahoma, sans-serif;
+    color: #202020;
+    font-size: 16px ;  /*размер шрифта*/
+    background: rgb(206, 182, 76);
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444444;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Arial Narrow", serif;
+    color: #000000;
+    height: 100px;
+    border: 3px solid #9c9e36;
+    background: #daba95 no-repeat center url("img/background-chat-vk-25.jpg");
+    
+}
+h1 {
+    width: 200px;
+    margin: 0 auto 8px;
+    font-family: "Georgia", serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 94px;
+    display: inline;
+
+}
+
+  
+h2 {
+    border-bottom: 2px solid #f0f35c;
+    padding-bottom: 12px;
+    
+    text-align: center;
+}
+p.rules {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.container {
+    width: 510px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+.site-header {
+    min-width: 550px;
+    height: 186px;
+    margin-bottom: 70px;
+    padding-top: 30px;
+    background: #daba95 no-repeat center url("img/background-chat-vk-25.jpg");
+    background-size: cover;
+    color: #ffffff;
+}
+  
+.site-header p {
+    width: 255px;
+    margin: 0 auto 26px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px; 
+}
+  
+.site-header img {
+    display: block;
+    margin: 0 auto;
+}
+.nameSite{
+    color:#202020;
+}
+.duckName{
+    font-size: 35px;
+    line-height: 94px;
+    font-family:"Segoe Print", serif;
+    color:#be6fe2;
+    
+    font-weight: 100px;
+    padding: 10px;
+}
+.duckPhoto{
+    border: 6px solid #c7e4ff;
+    width: 500px;
+    height: 600px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cost{
+    font-size: 22px;
+    color:#541272;
+    padding: 20px;
+}
+.duckInf{
+    text-align: center;
+    font-size: 25px;
+    line-height: 34px;
+    font-family:"Segoe Print", serif;
+    color:#9c43c5;
+}
+.morePurpl{
+    color:#2f113d;
+    padding: 20px;
+}
+.characteristics{
+    color:#455ab6;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 34px;
+    font-family:"Segoe Print", serif;
+    
+}
+
+.charName{
+    padding: 10px;
+    color:#1b2968
+}

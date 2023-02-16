@@ -1,0 +1,122 @@
+/* сбросы стилей  */
+* {
+    margin: 0;
+}
+
+html,
+body {
+    font-family: Tahoma, sans-serif;
+    color: #202020;
+    font-size: 16px ;  /*размер шрифта*/
+    background: rgb(163, 205, 238);
+}
+
+p {
+    line-height: 150%;
+    /* высота между строками 1,5 строки */
+    margin-bottom: 20px;
+    /* отступ снизу */
+}
+a {
+    color: #202020;
+}
+
+figcaption{  /*выравниваем надпись ГЛАВНЫЙ КОТ по центру низа картинки*/
+    text-align: center;
+    font-size: 13px;
+    
+}
+
+.container {
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main {
+    /* background: pink; */
+    padding: 30px 0;
+    /*те сверху и снизу по 30px, а сверху и снизу 0*/
+}
+
+.main::after {
+    /*родительский элемент растнулся по всем дивам */
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.site-header {
+    text-align: center;
+    /* выравнивается по центру */
+    /* padding: 30px auto; */
+    /*заголовок отступает по 30px от верха и низа а лево и право автоматиемки  */
+   
+}
+
+.site-header h1 {
+    border-bottom: 1px solid rgb(201, 227, 235);
+    padding: 25px ;
+}
+
+.sidebar {
+    width: 23%;
+    float: left;
+    /*липнет к левому краю*/
+    margin-right: 2%;
+    /*отступ вправо до след дива*/
+    /* background: yellow; */
+}
+
+figure {
+    padding:  25px 0;
+}
+
+article {
+    width: 53%;
+    float: left;
+    /* прилипает к левому краю */
+    margin-right: 2%;
+    /*отступ  */
+    /* background: green; */
+}
+article h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    /* прилипает к левому краю */
+    /* background: red; */
+}
+
+nav ul {
+    margin: 20px 0;
+    /*отступмежду менюшкой и навигцией  */
+    padding-left: 20px;
+    /*отступ навигации от левого края(по умолчанию стояло 40px */
+}
+
+nav li {
+    margin-bottom: 10px;
+    /*рассстояние между пунктами навигации*/
+}
+
+
+
+/* снимаем подчеркивание гипперссылок только в менюшке */
+nav li a {
+    text-decoration: none;
+}
+
+nav a:hover{  /*при наведении на гипперссылку она двигается вправо*/
+    padding-left: 10px; 
+}
+aside img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}

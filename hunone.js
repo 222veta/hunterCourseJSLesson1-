@@ -27,16 +27,37 @@
 
 //операторы
 
-let incr = 10;
-let dicr = 10;
+// let incr = 10;
+// let dicr = 10;
 
-console.log(incr++); // 10, но потом изменится
-console.log(dicr--);// 10, но потом изменится
-console.log(++incr); // 11
-console.log(--dicr);// 9
+// console.log(incr++); // 10, но потом изменится
+// console.log(dicr--);// 10, но потом изменится
+// console.log(++incr); // 11
+// console.log(--dicr);// 9
 
 
-console.log('dc');
-//kk
-//git bvnn
-console.log("njn")
+
+
+
+//циклы
+
+let nuv = 50;
+
+// while(nuv <= 55){
+//     console.log(nuv);
+//     nuv++;
+// }
+
+// do {
+//     console.log(nuv);
+//     nuv++;
+// }
+// while(nuv <= 55){
+//     console.log(nuv);
+//     nuv++;
+// }
+
+num =1;
+for(let i = 1; i < 8; i+2){
+    console.log(nuv);
+}
